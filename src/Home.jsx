@@ -19,11 +19,10 @@ function Home() {
   };
   function logoutHandler() {
     localStorage.clear();
-    console.log('out');
-    
+    console.log("out");
   }
   return (
-    <>
+    <> 
       <Link style={styling} onClick={logoutHandler} to="/login">
         Logout
       </Link>
